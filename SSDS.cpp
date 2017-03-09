@@ -341,7 +341,7 @@ void RunApplication()
       "howmany.net",
       "I need to know how many pizzas to deliver");
 
-   // Start recogniser running
+   // Start recogniser running Start recogniser running
    StartRecogniser();
 
    do{
