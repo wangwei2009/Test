@@ -1,5 +1,6 @@
 #include<iostream>
 #include "MyList.h"
+#include "Sort.h"
 using namespace std;
 
 void main() {
@@ -14,7 +15,9 @@ void main() {
 	int len = get_list_len(n1);
 	cout << "len = " << len << endl;
 
-
+	int data[11] = {72,6,57,88,60,42,18,83,73,48,85};
+	BubbleSort(data, 11);
+	//QuickSort(data, 11);
 
 	//cout << n1.next << endl;
 	node *n2;
